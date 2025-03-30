@@ -1,11 +1,41 @@
-# Python
+# Dependencies
+node_modules/
 __pycache__/
+*.pyc
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Backend files
+src/pages/api/
+requirements.txt
+Dockerfile
+
+# Python
 *.py[cod]
 *$py.class
 *.so
 .Python
 env/
-build/
 develop-eggs/
 dist/
 downloads/
@@ -22,7 +52,6 @@ wheels/
 *.egg
 
 # Node
-node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
